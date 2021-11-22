@@ -17,7 +17,7 @@ void Ex4(char *str){
 	//Your codes here
 	int i;
     int n = strlen(str);
-    for(i = 0; i < n; i++){ // Chạy đến giá trị '\0' để kiểm tra phần tử cuối cùng
+    for(i = 0; i < n; i++){ 
         if(str[i] == ' '){
             int nBegin = i;
  
